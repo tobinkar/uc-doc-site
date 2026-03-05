@@ -1,6 +1,6 @@
 ---
 seo:
-  title: Learning Management System Documentation
+  title: Unicourse Documentation Site
   description: Master your learning journey with comprehensive guides, course creation tools, and learner management resources.
 ---
 

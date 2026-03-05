@@ -16,7 +16,7 @@ Everything you need to create engaging courses, manage learners, and track progr
   ---
   color: primary
   size: xl
-  to: /getting-started/welcome
+  to: ./getting-started/welcome
   trailing-icon: i-lucide-arrow-right
   ---
   Start Learning

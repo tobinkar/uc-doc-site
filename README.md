@@ -1,82 +1,52 @@
-# Docus Default Starter
+# Unicourse Support Documentation
 
-> A beautiful, minimal starter for creating documentation with Docus
+> **Status:** Draft — Starting point for help center content  
+> **Last Updated:** 2026-02-19  
+> **Product:** unicourse.io
 
-This is the default Docus starter template that provides everything you need to build beautiful documentation sites with Markdown and Vue components.
-
-> [!TIP]
-> If you're looking for i18n support, check out the [i18n starter](https://github.com/nuxt-themes/docus/tree/main/.starters/i18n).
-
-## ✨ Features
-
-- 🎨 **Beautiful Design** - Clean, modern documentation theme
-- 📱 **Responsive** - Mobile-first responsive design  
-- 🌙 **Dark Mode** - Built-in dark/light mode support
-- 🔍 **Search** - Full-text search functionality
-- 📝 **Markdown Enhanced** - Extended markdown with custom components
-- 🎨 **Customizable** - Easy theming and brand customization
-- ⚡ **Fast** - Optimized for performance with Nuxt 4
-- 🔧 **TypeScript** - Full TypeScript support
-
-## 🚀 Quick Start
-
-```bash
-# Install dependencies
-npm install
-
-# Start development server
-npm run dev
-```
-
-Your documentation site will be running at `http://localhost:3000`
-
-## 📁 Project Structure
+## Structure
 
 ```
-my-docs/
-├── content/              # Your markdown content
-│   ├── index.md         # Homepage
-│   ├── 1.getting-started/  # Getting started section
-│   └── 2.essentials/    # Essential documentation
-├── public/              # Static assets
-└── package.json         # Dependencies and scripts
+support/
+├── README.md                    # This file
+├── getting-started/
+│   ├── welcome.md              # Welcome + platform overview
+│   ├── account-setup.md        # Creating your organization
+│   ├── first-course.md         # Quick start: create first course
+│   └── invite-learners.md      # Adding your first learners
+├── courses/
+│   ├── creating-courses.md     # Course creation basics
+│   ├── adding-content.md       # Videos, docs, quizzes
+│   ├── course-settings.md      # Access, pricing, certificates
+│   ├── quizzes-assessments.md  # Quiz builder guide
+│   └── organizing-content.md   # Modules, sections, ordering
+├── learners/
+│   ├── managing-learners.md    # User management
+│   ├── progress-tracking.md    # View learner progress
+│   ├── certificates.md         # Issuing certificates
+│   └── notifications.md        # Emails and reminders
+├── analytics/
+│   ├── dashboard-overview.md   # Analytics home
+│   ├── course-analytics.md     # Per-course metrics
+│   └── learner-reports.md      # Individual learner data
+├── branding/
+│   ├── custom-branding.md      # Logo, colors, domain
+│   ├── email-templates.md      # Customize notifications
+│   └── embed-options.md        # Embed courses externally
+├── account/
+│   ├── billing.md              # Plans, upgrades, invoices
+│   ├── team-members.md         # Admin roles and permissions
+│   └── security.md             # 2FA, password, sessions
+└── troubleshooting/
+    ├── video-issues.md         # Upload/playback problems
+    ├── login-issues.md         # Access problems
+    └── faq.md                  # Common questions
 ```
 
-## ⚡ Built with
+## Content Guidelines
 
-This starter comes pre-configured with:
-
-- [Nuxt 4](https://nuxt.com) - The web framework
-- [Nuxt Content](https://content.nuxt.com/) - File-based CMS
-- [Nuxt UI](https://ui.nuxt.com) - UI components
-- [Nuxt Image](https://image.nuxt.com/) - Optimized images
-- [Tailwind CSS 4](https://tailwindcss.com/) - Utility-first CSS
-- [Docus Layer](https://www.npmjs.com/package/docus) - Documentation theme
-
-## 📖 Documentation
-
-For detailed documentation on customizing your Docus project, visit the [Docus Documentation](https://docus.dev)
-
-### 🤖 AI Assistant Skill
-
-Get started quickly with Docus by adding specialized knowledge to your AI assistant (Cursor, Claude, etc.):
-
-```bash
-npx skills add nuxt-content/docus
-```
-
-This skill helps you create documentation faster by providing your AI assistant with best practices, MDC component usage, ready-to-use templates, writing guidelines, and configuration tips for Docus. Perfect for quickly scaffolding new documentation projects.
-
-## 🚀 Deployment
-
-Build for production:
-
-```bash
-npm run build
-```
-
-The built files will be in the `.output` directory, ready for deployment to any hosting provider that supports Node.js.
-
-## 📄 License
-
-[MIT License](https://opensource.org/licenses/MIT) 
+- Write for busy admins and course creators
+- Keep paragraphs short (3-4 sentences max)
+- Use screenshots where helpful (placeholder: `[Screenshot: description]`)
+- Include step-by-step numbered lists for procedures
+- Link related articles at the bottom of each page

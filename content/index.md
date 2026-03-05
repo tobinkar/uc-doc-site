@@ -16,7 +16,7 @@ Everything you need to create engaging courses, manage learners, and track progr
   ---
   color: primary
   size: xl
-  to: /1.getting-started/welcome
+  to: /getting-started/welcome
   trailing-icon: i-lucide-arrow-right
   ---
   Start Learning
@@ -44,7 +44,7 @@ Get Started in 3 Easy Steps
   icon: i-lucide-user-check
   ---
   #title
-  [Set Up Your Account](/1.getting-started/account-setup)
+  [Set Up Your Account](/getting-started/account-setup)
   
   #description
   Create your profile, configure settings, and personalize your learning experience.
@@ -55,7 +55,7 @@ Get Started in 3 Easy Steps
   icon: i-lucide-book-marked
   ---
   #title
-  [Create Your First Course](/1.getting-started/first-course)
+  [Create Your First Course](/getting-started/first-course)
   
   #description
   Learn how to structure and publish your first course in minutes.
@@ -66,7 +66,7 @@ Get Started in 3 Easy Steps
   icon: i-lucide-users
   ---
   #title
-  [Invite Learners](/1.getting-started/invite-learners)
+  [Invite Learners](/getting-started/invite-learners)
   
   #description
   Build your learner community and start engaging with your audience.
@@ -158,7 +158,7 @@ Quick access to the most helpful resources
   icon: i-lucide-layout-grid
   ---
   #title
-  [Project Structure](/1.getting-started/4.project-structure)
+  [Project Structure](/getting-started/project-structure)
   :::
 
   :::u-page-feature
@@ -198,6 +198,6 @@ Quick access to the most helpful resources
   icon: i-lucide-zap
   ---
   #title
-  [Migration Guide](/1.getting-started/6.migration)
+  [Migration Guide](/getting-started/migration)
   :::
 ::

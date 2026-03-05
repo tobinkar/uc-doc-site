@@ -1,0 +1,14 @@
+{
+  "name": "uc-doc-site",
+  "scripts": {
+    "dev": "nuxt dev --extends docus",
+    "build": "nuxt build --extends docus"
+  },
+  "dependencies": {
+    "@nuxt/ui": "^4.5.1",
+    "better-sqlite3": "^12.6.2",
+    "docus": "latest",
+    "nuxt": "^4.3.1",
+    "tailwindcss": "^4.2.1"
+  }
+}
